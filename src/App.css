@@ -1,0 +1,52 @@
+body{
+  background: #bdbdbd;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calculadora {
+  border: 3px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+}
+button {
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+}
+
+#clear{
+  width: 160px;
+  background: #7afff3c7;
+}
+
+#zero{
+  width: 160px;
+}
+
+#equals {
+  background: rgb(154 158 158);
+  position: absolute;
+  height: 129px;
+  top: 408px;
+}
+#display {
+  display: flex;
+  color: white;
+  margin-bottom: 5px;
+  height: 50px;
+  justify-content: flex-end;
+  font-family: Share Tech Mono, monospace;
+}
